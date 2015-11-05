@@ -24,18 +24,19 @@ ANDROID_VERSION=
 
 function fetchUserDefinedAssets {
 	# You can insert here any file-fetching command you want!
+	echo "[INFO] Fetching User-defined Assets (if defined)"
 }
 
 function info {
-	echo "[INFO] $(1)"
+	echo "[INFO] $1"
 }
 
 function warn {
-	echo "[WARNING] $(1)"
+	echo "[WARNING] $1"
 }
 
 function error {
-	echo "[ERROR] $(1)"
+	echo "[ERROR] $1"
 }
 
 info "fetchAndroidSrc v1.0_revA"
